@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <div class="image">
+                    <img src="images/nisLogo.png" width="68px">
+                </div>
+                <div class="logoText">
+                    <p>NIS<br>Timetable</p>
+                </div>
+            </div>
+            <div class="items">
+                <ul class="list">
+                    <li><a onclick="openNews()">News</a></li>
+                    <li><a onclick="openPost()">Add post</a></li>
+                    <li><a onclick="openTable()">Add timetable</a></li>
+                    <li><a onclick="openStudents()">Students</a></li>
+                    <li><a>Log out</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section class="student">
+
+            </section>
+            <section class="postik">
+                <form class="posts">
+                    <h1>Post</h1><br>
+                    <label for="title">Title</label><br>
+                    <input id="title" name="title"><br>
+                    <label for="text">Text</label><br>
+                    <textarea id="text" name="text"></textarea><br>
+                    <button class="btn">Login</button>
+                </form>
+            </section>
+            <section class="table">
+                <form class="tables">
+                    <h1>Add timetable</h1><br>
+                    <label for="class">Class</label><br>
+                    <input id="class" name="class"><br>
+                    <label for="table">Table</label><br>
+                    <input type="file" id="table" name="table"><br>
+                    <button class="btn">Add timetable</button>
+                </form>
+            </section>
+            <section class="new">
+                <form class="news">
+                    <div class="post">
+                        <a onclick="closeReg()"><img src="images/close.png" width="16px"></a>
+                        <h1>Post Title</h1>
+                        <p>Post contentContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    </div>
+                    <div class="post">
+                        <a onclick="closeReg()"><img src="images/close.png" width="16px"></a>
+                        <h1>Post Title</h1>
+                        <p>Post contentContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    </div>
+                    <div class="post">
+                        <a onclick="closeReg()"><img src="images/close.png" width="16px"></a>
+                        <h1>Post Title</h1>
+                        <p>Post contentContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    </div>
+                    <div class="post">
+                        <a onclick="closeReg()"><img src="images/close.png" width="16px"></a>
+                        <h1>Post Title</h1>
+                        <p>Post contentContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    </div>
+                    <div class="post">
+                        <a onclick="closeReg()"><img src="images/close.png" width="16px"></a>
+                        <h1>Post Title</h1>
+                        <p>Post contentContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    </div>
+                    <div class="post">
+                        <h1>Post Title</h1>
+                        <p>Post contentContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="logo">
+                <div class="image">
+                    <img src="images/nisLogo.png" width="68px">
+                </div>
+                <div class="logoText">
+                    <p>NIS<br>Timetable</p>
+                </div>
+            </div>
+            <div class="contact">
+                <p>Telephone: <a href="tel:+78000800095">8 800 080 00 95</a> ||<a href="+77075000568">8 707 500 05 68</a><br>
+                &copy; 2020-2021 All right reserved</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
